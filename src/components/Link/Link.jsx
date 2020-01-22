@@ -12,7 +12,7 @@ const Link = ({ className, href, children }) => {
 Link.propTypes = {
   href: PropTypes.string,
   className: PropTypes.string,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 Link.defaultProps = {
